@@ -1,0 +1,50 @@
+{
+  "name": "Moon Rabbit",
+  "logoURI": "https://raw.githubusercontent.com/MoonRabbitAZ/swap-client/main/src/assets/images/moon-rabbit.svg",
+  "keywords": [
+    "moon rabbit"
+  ],
+  "timestamp": "2022-05-16T23:01:51.032Z",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 1
+  },
+  "tokens": [
+    {
+      "chainId": 1280,
+      "address": "0x3cDD7CB07A177A6d227a2b1051386e8435381176",
+      "symbol": "WAAA",
+      "name": "Wrapped AAA",
+      "decimals": 18
+    },
+    {
+      "chainId": 1280,
+      "address": "0xE0C69e2Ef645a0dF21a23D430044C0A0D4e8347b",
+      "symbol": "wDAI",
+      "name": "wDAI",
+      "decimals": 18
+    },
+    {
+      "chainId": 1280,
+      "address": "0x6403496190e647d37EB386E48A9fDCd7293024B0",
+      "symbol": "wUSDC",
+      "name": "wUSDC",
+      "decimals": 6
+    },
+    {
+      "chainId": 1280,
+      "address": "0xF454708b585A600f20D693cC1992C481317CDe9D",
+      "symbol": "wUSDT",
+      "name": "wUSDT",
+      "decimals": 6
+    },
+    {
+      "chainId": 1280,
+      "address": "0x15EcCb0812A5afF443b6833B09f9952ED52e6540",
+      "symbol": "wBTC",
+      "name": "wBTC",
+      "decimals": 8
+    }
+  ]
+}
