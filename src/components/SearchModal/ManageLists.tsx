@@ -96,7 +96,7 @@ const ListRow = memo(function ListRow({ listUrl }: { listUrl: string }) {
   const { current: list, pendingUpdate: pending } = listsByUrl[listUrl];
 
   const theme = useTheme();
-  const listColor = useListColor(list?.logoURI);
+  const listColor = useListColor();
   const isActive = useIsListActive(listUrl);
 
   const [open, toggle] = useToggle(false);
