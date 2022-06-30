@@ -21,9 +21,9 @@ type ChainTokenList = {
 };
 
 export const DAI = new Token(ChainId.MOON_RABBIT, '0xE0C69e2Ef645a0dF21a23D430044C0A0D4e8347b', 18, 'wDAI', 'wDAI');
-export const USDC = new Token(ChainId.MOON_RABBIT, '0x6403496190e647d37EB386E48A9fDCd7293024B0', 6, 'wUSDC', 'wUSDC');
-export const USDT = new Token(ChainId.MOON_RABBIT, '0xF454708b585A600f20D693cC1992C481317CDe9D', 6, 'wUSDT', 'wUSDT');
-export const WBTC = new Token(ChainId.MOON_RABBIT, '0x15EcCb0812A5afF443b6833B09f9952ED52e6540', 8, 'wBTC', 'wBTC');
+export const USDC = new Token(ChainId.MOON_RABBIT, '0x6403496190e647d37EB386E48A9fDCd7293024B0', 18, 'wUSDC', 'wUSDC');
+export const USDT = new Token(ChainId.MOON_RABBIT, '0xF454708b585A600f20D693cC1992C481317CDe9D', 18, 'wUSDT', 'wUSDT');
+export const WBTC = new Token(ChainId.MOON_RABBIT, '0x15EcCb0812A5afF443b6833B09f9952ED52e6540', 18, 'wBTC', 'wBTC');
 
 // Block time here is slightly higher (~1s) than average in order to avoid ongoing proposals past the displayed time
 export const AVERAGE_BLOCK_TIME_IN_SECS = 13;
