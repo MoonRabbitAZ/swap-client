@@ -82,6 +82,14 @@
       "name": "UMA",
       "decimals": 18,
       "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/5617.png"
+    },
+    {
+      "chainId": 1280,
+      "address": "0xd25b51674aF1884c0fFDC7D14906f67b99bb1A3a",
+      "symbol": "$wsbt",
+      "name": "WSBT",
+      "decimals": 18,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/21001.png"
     }
   ]
 }
