@@ -3,9 +3,9 @@ import React, { useMemo } from 'react';
 import styled from 'styled-components';
 
 import MoonRabbitLogo from '../../assets/images/moon-rabbit.svg';
-import useHttpLocations from '../../hooks/useHttpLocations';
 import { WrappedTokenInfo } from '../../state/lists/hooks';
 import Logo from '../Logo';
+import { useAllTokens } from '../../hooks/Tokens';
 
 const StyledEthereumLogo = styled.img<{ size: string }>`
   width: ${({ size }) => size};
@@ -30,20 +30,18 @@ export default function CurrencyLogo({
   size?: string;
   style?: React.CSSProperties;
 }) {
-  const uriLocations = useHttpLocations(currency instanceof WrappedTokenInfo ? currency.logoURI : undefined);
+  const tokens = useAllTokens();
 
   const srcs: string[] = useMemo(() => {
     if (currency === ETHER) return [];
 
     if (currency instanceof Token) {
-      if (currency instanceof WrappedTokenInfo) {
-        return [...uriLocations];
-      }
+      const token = tokens[currency.address] as WrappedTokenInfo;
 
-      return [];
+      return [token?.logoURI || ''];
     }
     return [];
-  }, [currency, uriLocations]);
+  }, [currency, tokens]);
 
   if (currency === ETHER) {
     return <StyledEthereumLogo src={MoonRabbitLogo} size={size} style={style} />;
