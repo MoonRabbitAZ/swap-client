@@ -16,35 +16,72 @@
       "address": "0x3cDD7CB07A177A6d227a2b1051386e8435381176",
       "symbol": "WAAA",
       "name": "Wrapped AAA",
-      "decimals": 18
+      "decimals": 18,
+      "logoURI: : "https://s2.coinmarketcap.com/static/img/coins/64x64/11392.png"
     },
     {
       "chainId": 1280,
       "address": "0xE0C69e2Ef645a0dF21a23D430044C0A0D4e8347b",
       "symbol": "wDAI",
       "name": "wDAI",
-      "decimals": 18
+      "decimals": 18,
+      "logoURI: : "https://s2.coinmarketcap.com/static/img/coins/64x64/4943.png"
     },
     {
       "chainId": 1280,
       "address": "0x6403496190e647d37EB386E48A9fDCd7293024B0",
       "symbol": "wUSDC",
       "name": "wUSDC",
-      "decimals": 18
+      "decimals": 18,
+      "logoURI: : "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png"
     },
     {
       "chainId": 1280,
       "address": "0xF454708b585A600f20D693cC1992C481317CDe9D",
       "symbol": "wUSDT",
       "name": "wUSDT",
-      "decimals": 18
+      "decimals": 18,
+      "logoURI: : "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png"
     },
     {
       "chainId": 1280,
       "address": "0x15EcCb0812A5afF443b6833B09f9952ED52e6540",
       "symbol": "wBTC",
       "name": "wBTC",
-      "decimals": 18
-    }
+      "decimals": 18,
+      "logoURI: : "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png"
+    },
+    {
+      "chainId": 1280,
+      "address": "0x4787cc11806BD45CF736D562Af882D1e2Cd46F49",
+      "symbol": "BAT",
+      "name": "BAT",
+      "decimals": 18,
+      "logoURI: : "https://s2.coinmarketcap.com/static/img/coins/64x64/1697.png"
+    },
+    {
+      "chainId": 1280,
+      "address": "0x35dFa116F194eD82f5726215EF2b4682f26efBDF",
+      "symbol": "MLN",
+      "name": "MLN",
+      "decimals": 18,
+      "logoURI: : "https://s2.coinmarketcap.com/static/img/coins/64x64/1552.png"
+    },
+    {
+      "chainId": 1280,
+      "address": "0xf0eB12b3f0626D4bcdf72E88c7AB4d4a985d2e25",
+      "symbol": "NMR",
+      "name": "NMR",
+      "decimals": 18,
+      "logoURI: : "https://s2.coinmarketcap.com/static/img/coins/64x64/1732.png"
+    },
+    {
+      "chainId": 1280,
+      "address": "0xf7a8EeF80868F1372821892A61E9921154906288",
+      "symbol": "UMA",
+      "name": "UMA",
+      "decimals": 18,
+      "logoURI: : "https://s2.coinmarketcap.com/static/img/coins/64x64/5617.png"
+    },
   ]
 }
