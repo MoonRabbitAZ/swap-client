@@ -12,6 +12,7 @@ import { useETHBalances } from '../../state/wallet/hooks';
 import { LightCard } from '../Card';
 import Row, { RowFixed } from '../Row';
 import Web3Status from '../Web3Status';
+import { ExternalLink } from '../../theme';
 
 const HeaderFrame = styled.div`
   width: 100vw;
@@ -210,6 +211,48 @@ const StyledNavLink = styled(NavLink).attrs({
   `};
 `;
 
+const StyledExternalLink = styled(ExternalLink).attrs({
+  activeClassName,
+})<{ isActive?: boolean }>`
+  ${({ theme }) => theme.flexRowNoWrap}
+  align-items: left;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: ${({ theme }) => theme.text2};
+  font-size: 0.9rem;
+  width: fit-content;
+  padding: 0.3rem 0.6rem;
+  font-weight: 500;
+  transition: 0.3s;
+
+  &:not(:last-child) {
+    margin-right: 0.16rem;
+  }
+
+  &.${activeClassName} {
+    color: ${({ theme }) => theme.text1};
+    background-color: ${({ theme }) => theme.bg3};
+  }
+
+  :hover,
+  :focus {
+    color: ${({ theme }) => darken(0.1, theme.text1)};
+    text-decoration: none;
+  }
+
+  ${({ theme }) => theme.mediaWidth.upToSmall`
+  border-radius: 8px;
+  padding: 0.3rem 7%;
+  border: 1px solid ${({ theme }) => theme.bg3};
+
+  &:not(:last-child) {
+    margin-right: 2%;
+  }
+`};
+`;
+
 export const StyledMenuButton = styled.button`
   position: relative;
   width: 100%;
@@ -279,6 +322,10 @@ export default function Header() {
         >
           {'Pool'}
         </StyledNavLink>
+        <StyledExternalLink id={`legal-nav-link`} href="https://moonrabbit.com/legal">
+          {'Legal'}
+          <sup>↗</sup>
+        </StyledExternalLink>
       </HeaderLinks>
 
       <HeaderControls>
