@@ -17,7 +17,7 @@
       "symbol": "WAAA",
       "name": "Wrapped AAA",
       "decimals": 18,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/11392.png"
+      "logoURI": "https://raw.githubusercontent.com/MoonRabbitAZ/swap-client/main/src/assets/images/moon-rabbit.svg"
     },
     {
       "chainId": 1280,
