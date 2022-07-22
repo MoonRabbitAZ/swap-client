@@ -86,7 +86,7 @@
     {
       "chainId": 1280,
       "address": "0xd25b51674aF1884c0fFDC7D14906f67b99bb1A3a",
-      "symbol": "$wsbt",
+      "symbol": "WSBT",
       "name": "WSBT",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/MoonRabbitAZ/swap-client/main/public/images/WSB_sh.png"
