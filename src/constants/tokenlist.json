@@ -89,7 +89,7 @@
       "symbol": "$wsbt",
       "name": "WSBT",
       "decimals": 18,
-      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/21001.png"
+      "logoURI": "https://raw.githubusercontent.com/MoonRabbitAZ/swap-client/main/public/images/WSB_sh.png"
     }
   ]
 }
