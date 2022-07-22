@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Header from '../components/Header';
 import Polling from '../components/Header/Polling';
 import Popups from '../components/Popups';
+import TermsModal from '../components/TermsModal';
 import Web3ReactManager from '../components/Web3ReactManager';
 import DarkModeQueryParamReader from '../theme/DarkModeQueryParamReader';
 import AddLiquidity from './AddLiquidity';
@@ -77,6 +78,7 @@ export default function App() {
             </Switch>
           </Web3ReactManager>
         </BodyWrapper>
+        <TermsModal />
       </AppWrapper>
     </Suspense>
   );
