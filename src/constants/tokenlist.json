@@ -90,6 +90,14 @@
       "name": "WSBT",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/MoonRabbitAZ/swap-client/main/public/images/WSB_sh.svg"
+    },
+    {
+      "chainId": 1280,
+      "address": "0x4c99b6E6a6ae83E0A2020715A20d031211f1E786",
+      "symbol": "CHFAAA",
+      "name": "CHFAAA",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/MoonRabbitAZ/swap-client/main/public/images/CHFAAA.png"
     }
   ]
 }
