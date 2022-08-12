@@ -120,7 +120,7 @@
       "address": "0xFE585dfDF94B99e9Ca7f4C9E87AB6e2e5859BBd9",
       "symbol": "FLOKI",
       "name": "FLOKI",
-      "decimals": 18,
+      "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/MoonRabbitAZ/swap-client/main/public/images/floki.jpeg"
     }
   ]
