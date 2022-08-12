@@ -98,6 +98,30 @@
       "name": "CHFAAA",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/MoonRabbitAZ/swap-client/main/public/images/CHFAAA.png"
+    },
+    {
+      "chainId": 1280,
+      "address": "0xeE8A0f12Ba741F100B6ECB5A5731c52dab0D2392",
+      "symbol": "SHIB",
+      "name": "SHIB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/MoonRabbitAZ/swap-client/main/public/images/shib.jpeg"
+    },
+    {
+      "chainId": 1280,
+      "address": "0xb6b94F208b44399582eEf84FFA41bdeF01Fcaad8",
+      "symbol": "ELON",
+      "name": "ELON",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/MoonRabbitAZ/swap-client/main/public/images/elon.jpeg"
+    },
+    {
+      "chainId": 1280,
+      "address": "0x62628f79760B38D72c2d51C8C33745A731620E24",
+      "symbol": "FLOKI",
+      "name": "FLOKI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/MoonRabbitAZ/swap-client/main/public/images/floki.jpeg"
     }
   ]
 }
