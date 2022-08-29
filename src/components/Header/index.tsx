@@ -202,7 +202,6 @@ const StyledNavLink = styled(NavLink).attrs({
 
   ${({ theme }) => theme.mediaWidth.upToSmall`
     border-radius: 8px;
-    padding: 0.3rem 7%;
     border: 1px solid ${({ theme }) => theme.bg3};
 
     &:not(:last-child) {
@@ -244,7 +243,6 @@ const StyledExternalLink = styled(ExternalLink).attrs({
 
   ${({ theme }) => theme.mediaWidth.upToSmall`
   border-radius: 8px;
-  padding: 0.3rem 7%;
   border: 1px solid ${({ theme }) => theme.bg3};
 
   &:not(:last-child) {
@@ -322,6 +320,10 @@ export default function Header() {
         >
           {'Pool'}
         </StyledNavLink>
+        <StyledExternalLink id={`info-nav-link`} href="https://info.dex.moonrabbit.com/home">
+          {'Info'}
+          <sup>↗</sup>
+        </StyledExternalLink>
         <StyledExternalLink id={`legal-nav-link`} href="https://moonrabbit.com/legal">
           {'Legal'}
           <sup>↗</sup>
