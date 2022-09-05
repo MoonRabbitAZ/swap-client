@@ -122,6 +122,14 @@
       "name": "FLOKI",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/MoonRabbitAZ/swap-client/main/public/images/floki.jpeg"
+    },
+    {
+      "chainId": 1280,
+      "address": "0x3E2F56fA3676a777f17Dc103494061B158a23Fe5",
+      "symbol": "BabyDoge",
+      "name": "BabyDoge",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/MoonRabbitAZ/swap-client/main/public/images/babyDoge.png"
     }
   ]
 }
